@@ -91,23 +91,23 @@ for filename in os.listdir('./cog'):
 #         await voice.disconnect()
 
 
-speed = 1.0
+# speed = 1.0
 
 
-@client.command()
-async def speed(ctx, value=1.0):
-    global speed
-    speed = value
-    await ctx.send(f'Speed has been changed to {speed}')
+# @client.command()
+# async def speed(ctx, value=1.0):
+#     global speed
+#     speed = value
+#     await ctx.send(f'Speed has been changed to {speed}')
 
 
-def speed_change(sound, frames=1.0):
-    sound_with_altered_frame_rate = sound._spawn(sound.raw_data, overrides={
-        "frame_rate": int(sound.frame_rate * frames)
-    })
+# def speed_change(sound, frames=1.0):
+#     sound_with_altered_frame_rate = sound._spawn(sound.raw_data, overrides={
+#         "frame_rate": int(sound.frame_rate * frames)
+#     })
 
-    return sound_with_altered_frame_rate.set_frame_rate(sound.frame_rate)
+#     return sound_with_altered_frame_rate.set_frame_rate(sound.frame_rate)
 
 
-client.run('ODQzNjMyNDc0NTQxOTE2MTgx.YKGr9w.Q9GDYsePFBY2CYg6Wy48mLN44DI')
+# client.run('ODQzNjMyNDc0NTQxOTE2MTgx.YKGr9w.Q9GDYsePFBY2CYg6Wy48mLN44DI')
 
