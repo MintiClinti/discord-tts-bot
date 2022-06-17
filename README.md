@@ -3,7 +3,9 @@ Discord bot that I tinkered around with over last summer. This bot is able to ta
 It utilized the discord.py, gTTS and mutagen libraries. 
 
 discord.py : pip install -U discord.py
+
 gTTS : pip install gTTS
+
 mutagen : pip install mutagen
 
 This project also needs ffmpeg in order to run; install link will be pasted.
