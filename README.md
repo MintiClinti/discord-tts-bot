@@ -13,7 +13,7 @@ https://www.ffmpeg.org/download.html
 
 or 
 
-'git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg'
+`git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg`
 
 
 Thanks for checking this out
